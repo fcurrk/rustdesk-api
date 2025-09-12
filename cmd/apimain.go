@@ -23,7 +23,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-const DatabaseVersion = 264
+const DatabaseVersion = 265
 
 // @title 管理系统API
 // @version 1.0
@@ -145,11 +145,12 @@ func InitGlobal() {
 	//gorm
 	if global.Config.Gorm.Type == config.TypeMysql {
 
-		dsn := fmt.Sprintf("%s:%s@(%s)/%s?charset=utf8mb4&parseTime=True&loc=Local",
+		dsn := fmt.Sprintf("%s:%s@(%s)/%s?charset=utf8mb4&parseTime=True&loc=Local&tls=%s",
 			global.Config.Mysql.Username,
 			global.Config.Mysql.Password,
 			global.Config.Mysql.Addr,
 			global.Config.Mysql.Dbname,
+			global.Config.Mysql.Tls,
 		)
 
 		global.DB = orm.NewMysql(&orm.MysqlConfig{
