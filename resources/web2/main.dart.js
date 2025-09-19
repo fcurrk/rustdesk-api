@@ -125814,7 +125814,7 @@ p=A.a([B.ek,A.A3(A.M(o,A.Q(A.w("Version")+": "+l,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o),
 p.push(A.dR(!1,o,!0,A.M(o,A.Q(A.w("Privacy Statement"),o,o,o,o,o,o,o,o,B.k8,o,o,o,o,o,o),B.f,o,o,o,o,o,o,new A.C(0,4,0,4),o,o,o,o),o,!0,o,o,o,o,o,o,o,o,o,o,o,new A.b1k(),o,o,o,o,o,o,o))
 p.push(A.dR(!1,o,!0,A.M(o,A.Q(A.w("Website"),o,o,o,o,o,o,o,o,B.k8,o,o,o,o,o,o),B.f,o,o,o,o,o,o,new A.C(0,4,0,4),o,o,o,o),o,!0,o,o,o,o,o,o,o,o,o,o,o,new A.b1l(),o,o,o,o,o,o,o))
 p.push(A.dR(!1,o,!0,A.M(o,A.Q(A.w("Rustdesk API"),o,o,o,o,o,o,o,o,B.k8,o,o,o,o,o,o),B.f,o,o,o,o,o,o,new A.C(0,4,0,4),o,o,o,o),o,!0,o,o,o,o,o,o,o,o,o,o,o,new A.ljw(),o,o,o,o,o,o,o))
-p.push(A.M(o,A.M(o,A.A3(A.aA(A.a([A.bg(A.b3(A.a([A.Q("Copyright \xa9 "+B.d.a1(new A.cy(Date.now(),0,!1).l(0),0,4)+" Purslane Ltd.\n"+m,o,o,o,o,o,o,o,o,B.aBH,o,o,o,o,o,o),A.Q(A.w("Slogan_tip"),o,o,o,o,o,o,o,o,A.b6(o,o,B.m,o,o,o,o,o,o,o,o,o,o,o,B.pi,o,o,!0,o,o,o,o,o,o,o,o),o,o,o,o,o,o)],q),B.ag,o,B.k,B.j,o),1)],q),B.i,o,B.k,B.j,o)),B.f,o,o,B.TU,o,o,o,o,B.a4t,o,o,o),B.f,o,o,o,o,o,o,new A.C(0,4,0,4),o,o,o,o))
+p.push(A.M(o,A.M(o,A.A3(A.aA(A.a([A.bg(A.b3(A.a([A.Q("Copyright \xa9 "+B.d.a1(new A.cy(Date.now(),0,!1).l(0),0,4)+" Purslane Ltd.\n"+m,o,o,o,o,o,o,o,o,B.aBH,o,o,o,o,o,o)],q),B.ag,o,B.k,B.j,o),1)],q),B.i,o,B.k,B.j,o)),B.f,o,o,B.TU,o,o,o,o,B.a4t,o,o,o),B.f,o,o,o,o,o,o,new A.C(0,4,0,4),o,o,o,o))
 return A.kK(A.jw(A.a([A.M(o,A.b3(p,B.ag,o,B.k,B.j,o),B.f,o,o,o,o,o,o,new A.C(15,0,0,0),o,o,o,o)],q),r),B.u,new A.e0(0,!0,o,o,o,n,s),o,o,o,!1,B.S)},
 $S:782}
 A.ljw.prototype={
