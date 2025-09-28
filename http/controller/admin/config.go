@@ -73,7 +73,6 @@ func (co *Config) AdminConfig(c *gin.Context) {
 	if u.Id == 0 {
 		response.Success(c, &gin.H{
 			"title": global.Config.Admin.Title,
-			"version": global.Config.Admin.Version,
 		})
 		return
 	}
@@ -93,7 +92,6 @@ func (co *Config) AdminConfig(c *gin.Context) {
 	hello = strings.Replace(hello, "{{username}}", u.Username, -1)
 	response.Success(c, &gin.H{
 		"title": global.Config.Admin.Title,
-		"version": global.Config.Admin.Version,
 		"hello": hello,
 	})
 }
